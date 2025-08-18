@@ -9,9 +9,271 @@
    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.css' integrity='sha512-GmZYQ9SKTnOea030Tbiat0Y+jhnYLIpsGAe6QTnToi8hI2nNbVMETHeK4wm4MuYMQdrc38x+sX77+kVD01eNsQ==' crossorigin='anonymous'/>
 </head>
 <body>
+
+  <!-- Header section -->
+ <header>
+  <div class="text-white bg-[#222222] lg:flex justify-between items-center xl:px-40 lg:px-28 py-2 hidden">
+    <div class="flex space-x-3 items-center">
+      <i class="fa-solid fa-paper-plane text-2xl text-[#63AB45]"></i>
+        <div>
+            <h5 class="text-xs">Email:</h5>
+            <span class=" text-[#63AB45]">info@example.com</span>
+        </div>
+        <div class="w-[1px] h-7 bg-[#4d4e4e] xl:ml-24 xl:flex hidden"></div>
+    </div>
+      <p class="text-sm font-jost hidden lg:flex">50% Off Your Next Trip. Hurry Up For your new Tour! <a class="underline text-[#63AB45] px-1" href="#">Book Your Tour</a></p>
+    <div class="flex space-x-2 border-0 xl:border-l border-l-[#4d4e4e] xl:pl-24">
+      <div class="w-7 h-7 border flex justify-center items-center rounded-full hover:border-[#63AB45] hover:text-[#63AB45] transition-all duration-300 hover:scale-105">
+        <a href="#"><i class="fa-brands fa-facebook-f text-sm"></i></a>
+      </div>
+      <div class="w-7 h-7 border flex justify-center items-center rounded-full hover:border-[#63AB45] hover:text-[#63AB45] transition-all duration-300 hover:scale-105">
+        <a href="#"><i class="fa-brands fa-twitter text-sm"></i></a>
+      </div>
+      <div class="w-7 h-7 border flex justify-center items-center rounded-full hover:border-[#63AB45] hover:text-[#63AB45] transition-all duration-300 hover:scale-105">
+        <a href="#"><i class="fa-brands fa-pinterest-p text-sm"></i></a>
+      </div>
+      <div class="w-7 h-7 border flex justify-center items-center rounded-full hover:border-[#63AB45] hover:text-[#63AB45] transition-all duration-300 hover:scale-105">
+        <a href="#"><i class="fa-brands fa-instagram text-sm"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+<nav class="flex justify-between items-center w-[93%] mx-auto py-2 z-50">
+  <div class="w-40">
+    <img class="w-full" src="images/logo.png" alt="">
+  </div>
+
+  <div class="md:flex mx-auto items-center space-x-5 hidden">
+    <a href="#" class="text-[#63AB45]">Home</a>
+    <a href="#" class="hover:text-[#63AB45] transition duration-300">About</a>
+
+    
+    <div class="relative group inline-block">
+      <a href="#" class="flex items-center">
+        <span class="hover:text-[#63AB45] transition duration-300">Tours</span>
+        <i class="fa-solid fa-plus ml-1 transform transition-transform duration-300 group-hover:rotate-45 text-gray-400 font-light"></i>
+      </a>
+
+      <div
+        class="absolute left-0 z-50 w-32 bg-white shadow-lg rounded-md opacity-0 scale-95 translate-y-2 transform transition-all duration-300 origin-top group-hover:opacity-100 group-hover:scale-100 group-hover:translate-y-0 pointer-events-none group-hover:pointer-events-auto">
+        <ul>
+          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 hover:text-[#63AB45] transition-all duration-300">Adventure</a></li>
+          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 hover:text-[#63AB45] transition-all duration-300">Historical</a></li>
+          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 hover:text-[#63AB45] transition-all duration-300">Educational</a></li>
+        </ul>
+      </div>
+    </div>
+
+    
+    <div class="relative group inline-block">
+      <a href="#" class="flex items-center">
+        <span class="hover:text-[#63AB45] transition duration-300">Destination</span>
+        <i class="fa-solid fa-plus ml-1 transform transition-transform duration-300 group-hover:rotate-45 text-gray-400 font-light"></i>
+      </a>
+
+      <div
+        class="absolute left-0 z-50 w-24 bg-white shadow-lg rounded-md opacity-0 scale-95 translate-y-2 transform transition-all duration-300 origin-top group-hover:opacity-100 group-hover:scale-100 group-hover:translate-y-0 pointer-events-none group-hover:pointer-events-auto">
+        <ul>
+          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 hover:text-[#63AB45] transition-all duration-300">Finland</a></li>
+          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 hover:text-[#63AB45] transition-all duration-300">London</a></li>
+          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 hover:text-[#63AB45] transition-all duration-300">Istanbul</a></li>
+          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 hover:text-[#63AB45] transition-all duration-300"> & More</a></li>
+        </ul>
+      </div>
+    </div>
+
+    
+    <div class="relative group hidden lg:inline-block">
+      <a href="#" class="flex items-center">
+        <span class="hover:text-[#63AB45] transition duration-300">Pages</span>
+        <i class="fa-solid fa-plus ml-1 transform transition-transform duration-300 group-hover:rotate-45 text-gray-400 font-light"></i>
+      </a>
+
+      <div
+        class="absolute left-0 z-50 w-24 bg-white shadow-lg rounded-md opacity-0 scale-95 translate-y-2 transform transition-all duration-300 origin-top group-hover:opacity-100 group-hover:scale-100 group-hover:translate-y-0 pointer-events-none group-hover:pointer-events-auto">
+        <ul>
+          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 hover:text-[#63AB45] transition-all duration-300">Pages-1</a></li>
+          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 hover:text-[#63AB45] transition-all duration-300">Pages-2</a></li>
+          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 hover:text-[#63AB45] transition-all duration-300">Pages-3</a></li>
+          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 hover:text-[#63AB45] transition-all duration-300">Pages-4</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <a href="#" class="hover:text-[#63AB45] transition duration-300">Contact</a>
+  </div>
+
+  
+  <div class="flex gap-4 items-center">
+    <div class="w-8 md:w-7">
+      <a href="#"><img class="w-full" src="images/user.png" alt=""></a>
+    </div>
+
+    <div class="w-7 hidden md:flex">
+      <img class="w-full" src="images/List.png" alt="">
+    </div>
+
+    <div class="xl:flex items-center space-x-2 hidden">
+      <div class="w-10">
+        <img class="w-full" src="images/phone.png" alt="">
+      </div>
+      <div class="w-[1px] h-8 bg-[#cfcece] inline-block"></div>
+      <div>
+        <span class="font-medium">To More Inquiry</span>
+        <p class="font-semibold text-[#63AB45] text-lg leading-[1.2]">+990-737 621 432</p>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+</header>
+
+
+  <!-- Hero section -->
+   <section class="grid place-items-center bg-[url('/images/Banner.png')] lg:min-h-[79vh] min-h-[82vh] bg-no-repeat bg-cover bg-center">
+          <div class="max-w-3xl mx-auto">
+            <div class="sm:w-52 w-40 flex justify-center items-center relative mx-auto">
+                 <img class="w-full" src="images/vactor.png" alt="">
+                 <div class="flex gap-2.5 items-center absolute">
+                   <div class="w-5">
+                      <img class="w-full" src="images/location.png" alt="">
+                   </div>
+                   <span class="font-jost sm:text-xl text-lg text-white font-light">Spain</span>
+                 </div>
+            </div>
+            <h1 class="font-extrabold text-white lg:text-6xl md:text-5xl sm:text-4xl text-3xl leading-[1.1] my-4 text-center">Let's journey and <br>
+             discover a place.</h1>
+            <p class="font-jost text-white text-base font-light capitalize text-center leading-[1.8] sm:mb-11 mb-4 px-2">Life is unpredictable, and we understand that plans might change. Enjoy flexible booking options, so you can
+              reschedule or modify your trip with ease.</p>
+            <div class="flex items-center justify-center md:gap-10 gap-5 flex-wrap">
+                 <a href="#" class="md:px-10 md:py-3.5 px-5 py-3 bg-[#63ab45] text-white rounded-lg hover:bg-[#00AA6C] transition duration-300 mb-1">Book A Trip</a>
+                 <div class="flex items-center gap-3">
+                      <div class="w-10 sm:w-12">
+                          <img class="w-full" src="images/tripadvisor.png" alt="">
+                      </div>
+                      <div>
+                          <h3 class="text-white font-medium sm:text-xl text-lg mb-0.5 leading-[1.2]">Tripadvisor</h3>
+                          <div class="flex items-center sm:space-x-2 space-x-1">
+                            <span class="sm:w-5 sm:h-5 w-4 h-4 inline-block bg-[#00AA6C] rounded-full"></span>
+                            <span class="sm:w-5 sm:h-5 w-4 h-4 inline-block bg-[#00AA6C] rounded-full"></span>
+                            <span class="sm:w-5 sm:h-5 w-4 h-4 inline-block bg-[#00AA6C] rounded-full"></span>
+                            <span class="sm:w-5 sm:h-5 w-4 h-4 inline-block bg-[#00AA6C] rounded-full"></span>
+                            <span class="sm:w-5 sm:h-5 w-4 h-4 inline-block bg-[#00AA6C] rounded-full"></span>
+                            <span class="text-white text-xs sm:text-base">5.0/5.0</span>
+                          </div>
+                      </div>
+                 </div>
+            </div>
+          </div>
+   </section>
+   <div class="bg-[#edf2de] relative py-1">
+       <div class="max-w-[90%] mx-auto grid lg:grid-cols-4 sm:grid-cols-2 justify-items-center">
+              <div class="flex items-center gap-2 py-3">
+                      <div class="w-6">
+                        <img class="w-full" src="images/location2.png" alt="">
+                      </div>
+                      <div>
+                          <p class="text-[#6A6A6A] ps-1 text-sm">Destination</p>
+                          <div class="relative">
+                            <select name="Destination" id="Destination" class="outline-0 border-0 ps-1 pr-14 cursor-pointer font-medium appearance-none">
+                                <option value="Select Destination">Select Destination</option>
+                                <option value="Istanbul">Istanbul</option>
+                                <option value="Finland">Finland</option>
+                                <option value="London">London</option>
+                                <option value="Ethence">Ethence</option>
+                            </select>
+                            <div class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-gray-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                              </svg>
+                            </div>
+                          </div>
+                      </div>
+              </div>
+              
+              <div class="flex items-center gap-2 py-3">
+                      <div class="w-7">
+                        <img class="w-full" src="images/Tourbus.png" alt="">
+                      </div>
+                      <div>
+                          <p class="text-[#6A6A6A] ps-1 text-sm">Tour Type</p>
+                          <div class="relative">
+                            <select name="Destination" id="Destination" class="outline-0 border-0 ps-1 pr-14 cursor-pointer font-medium appearance-none">
+                                <option value="Select Destination">Select Tour Type</option>
+                                <option value="Istanbul">Educational</option>
+                                <option value="Finland">Historical</option>
+                                <option value="London">Adventure</option>
+                            </select>
+                            <div class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-gray-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                              </svg>
+                            </div>
+                          </div>
+                      </div>
+              </div>
+              
+              <div class="flex items-center gap-2 py-3">
+                      <a href="#">
+                        <i class="fa-regular fa-clock text-2xl text-[#63ab45]"></i>
+                      </a>
+                      <div>
+                          <p class="text-[#6A6A6A] ps-1 text-sm">When</p>
+                          <div class="relative">
+                            <select name="Destination" id="Destination" class="outline-0 border-0 ps-1 pr-14 cursor-pointer font-medium appearance-none">
+                                <option value="Select Destination">Select Month</option>
+                                <option value="January">January</option>
+                                <option value="February">February</option>
+                                <option value="March">March</option>
+                                <option value="April">April</option>
+                                <option value="May">May</option>
+                                <option value="June">June</option>
+                                <option value="July">July</option>
+                                <option value="August">August</option>
+                                <option value="September">September</option>
+                                <option value="October">October</option>
+                                <option value="November">November</option>
+                                <option value="December">December</option>
+                            </select>
+                            <div class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-gray-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                              </svg>
+                            </div>
+                          </div>
+                      </div>
+              </div>
+              
+              <div class="flex items-center gap-2 py-3">
+                      <div class="w-7">
+                        <img class="w-full" src="images/Tourbus.png" alt="">
+                      </div>
+                      <div>
+                          <p class="text-[#6A6A6A] ps-1 text-sm">Tour Duration</p>
+                          <div class="relative">
+                            <select name="Destination" id="Destination" class="outline-0 border-0 ps-1 pr-14 cursor-pointer font-medium appearance-none">
+                                <option value="Select Destination">Select Duration</option>
+                                <option value="Five Days">Five Days</option>
+                                <option value="Ten Days">Ten Days</option>
+                                <option value="One Month">One Month</option>
+                                <option value="Two Month">Two Month</option>
+                            </select>
+                            <div class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-gray-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                              </svg>
+                            </div>
+                          </div>
+                      </div>
+              </div>
+            </div>
+            <div class="lg:absolute lg:w-auto w-36 my-3 lg:my-0 rounded-md lg:rounded-none mx-auto inset-y-0 right-0 bg-[#63ab45] flex items-center justify-center 2xl:px-9 xl:px-6 px-6 text-white hover:bg-[#00AA6C] transition duration-300">
+              <a href="#" class="py-3 text-lg">search</a>
+            </div>
+   </div>
+
    
-
-
-
 </body>
 </html>

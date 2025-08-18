@@ -1,4 +1,4 @@
-# ✈️ TripNest - Flight Booking UI (Tailwind CSS Practice)
+# TripNest - Flight Booking UI
 
 TripNest is a modern and responsive flight booking website UI built using **HTML** and **Tailwind CSS**.  
 This is a **practice project** created to sharpen my Tailwind CSS skills by building a travel-related user interface.
@@ -16,4 +16,4 @@ TripNest features a clean and intuitive layout inspired by modern travel website
 This project is part of my learning journey toward mastering frontend web development.  
 I plan to enhance this in the future with interactivity using JavaScript or integrate it into a full-stack travel booking application.
 
-Feel free to explore, fork, or give feedback!
+--- Feel free to explore, fork, or give feedback! ---
